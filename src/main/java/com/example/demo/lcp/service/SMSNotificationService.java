@@ -1,0 +1,8 @@
+package com.example.demo.lcp.service;
+
+public class SMSNotificationService extends NotificationService {
+    @Override
+    public void sendNotification(String message) {
+        System.out.println("Sending SMS: " + message);
+    }
+}
