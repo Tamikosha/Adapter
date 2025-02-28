@@ -4,7 +4,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @FunctionalInterface
-interface FindTaskByIdSpi {
+public interface FindTaskByIdSpi {
 
     Optional<TaskData> findTaskById(UUID id);
 
